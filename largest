@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class largest{
+    public static void main (String[] args){
+    int a,b,c;
+    Scanner sc = new Scanner (System.in);
+    System.out.println("first number");
+    a=sc.nextInt();
+    System.out.println("second number");
+    b=sc.nextInt();
+    System.out.println("third number");
+    c=sc.nextInt();
+    if(a>b && a>c)
+     System.out.println(a+"is largest no");
+    if(b>c && b>c)
+     System.out.println(b+"is largest no");
+    if(c>a && c>b)
+     System.out.println(c+"is largest no");
+    }
+}
