@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class eligiblity
+{
+    public static void main (String args[]){
+        int c,s,a;
+        Scanner b=new Scanner (System.in);
+        System.out.println("Type cie Marks");
+        c=b.nextInt();
+        System.out.println("Type see Marks");
+        s=b.nextInt();
+        a=c+(s/2);
+        if(a>=90)
+        System.out.print("S grade");
+        else if (a>=80 && a<90)
+        System.out.print("A grade");
+        else if (a>=70 && a<80)
+        System.out.print("B grade");
+        else if (a>=60 && a<70)
+        System.out.print("C grade");
+        else if (a>=50 && a<60)
+        System.out.print("D grade");
+        else 
+        System.out.print("fail");
+
+    }
+}
