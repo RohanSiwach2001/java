@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class QuadPro {
+    public static void main(String[] args) {
+        		double t1,t2;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a,b,c value:\t");
+		double a = sc.nextDouble();
+		double b = sc.nextDouble();
+		double c = sc.nextDouble();
+		double D = b*b-4*a*c;
+		if(D<0) {
+			System.out.println("there are no real solution");
+		}
+                else {
+			t1 = (-b+Math.sqrt(D))/2*a;
+			t2 = (-b-Math.sqrt(D))/2*a;
+			System.out.println("real root1: "+t1);
+			System.out.println("real root2: "+t2);
+		}
+			
+	}
+}
